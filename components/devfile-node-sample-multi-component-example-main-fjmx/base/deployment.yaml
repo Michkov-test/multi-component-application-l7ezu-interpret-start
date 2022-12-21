@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-node-sample-multi-component-example-main-fjmx
     spec:
       containers:
-      - image: quay.io/mkovarik/test-images:fcdd795e1fb242daad4e12b673eae23e
+      - image: quay.io/mkovarik/test-images@sha256:aa0da5610d35af917aeda4ce5a5e06e55e97c5aac99ff078413c7ca051b84a57
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
